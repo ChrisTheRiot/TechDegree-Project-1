@@ -9,13 +9,13 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: rgb(5, 5, 5);
-  background: url('images/background\ .jpg') repeat top;
+
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: rgb(247, 242, 242)
+  color: rgb(5, 5, 5)
 }
 a:hover {
   color: #6633ff;
@@ -59,9 +59,9 @@ header {
   text-align: center;
   background: url('images/atchafalaya basin.jpg') no-repeat center;
   background-size: cover;
-  border: rgb(5, 5, 5);
+  border: 10px solid rgb(5, 5, 5);
   overflow: hidden;
-  padding: 60px;
+  padding: 100px;
 }
 header {
   line-height: 1.5;
@@ -74,12 +74,9 @@ header .profile-image {
   border: 3px solid rgb(247, 246, 246);
   transition: all .5s;
 }
-header .profile-image:hover {
-  transform: scale(1.5) rotate(30deg);
-}
 .tag {
-  background-color: rgb(245, 243, 240);
-  color: rgb(5, 5, 5);
+  background-color: rgb(5, 5, 5);
+  color: rgb(250, 249, 249);
   padding: 10px;
   border-radius: 5px;
   display: table;
@@ -102,25 +99,6 @@ header .profile-image:hover {
 .card:hover {
   border-color: transparent;
 }
-
-ul.skills {
-  padding: 0;
-  text-align: center;
-}
-
-.skills li {
-  border-radius: 6px;
-  display: inline-block;
-  background: transparent;
-  color: rgb(247, 245, 245);
-  padding: 5px 10px;
-  margin: 2px;
-}
-
-.skills li:nth-child(odd) {
-  background: transparent;
-}
-
 footer {
   width: 100%;
   min-height: 30px;
@@ -130,6 +108,7 @@ footer {
 footer .copyright {
   top: -8px;
   font-size: .75em;
+  color: rgb(250, 249, 249)
 }
 
 footer ul {
@@ -202,6 +181,46 @@ a.social:hover {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
+    background: rgb(5, 5, 5);
+  }
+
+  .head {
+    text-align: center;
+    background: url('images/saints logo.jpg') no-repeat center;
+    background-size: cover;
+    border: 100px solid rgb(5, 5, 5);
+    overflow: visible;
+    padding: 100px;
+  }
+  
+  .emails{
+    margin: 30px auto;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: center;
+    border-bottom: 4px solid gray;
+    border-radius: 6px;
+    transition: all .5s; 
+    color: rgb(5, 5, 5);
+    vertical-align: center;
+    
+  }
+  
+  .social info {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: transparent;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+    transition: all .5s;
+  }
+
+  .copyright two {
+    top: -8px;
+    font-size: .75em;
+    color: rgb(250, 249, 249) 
   }
 
 }
