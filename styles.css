@@ -13,13 +13,7 @@ body {
 }
 /* Link Styles */
 
-a {
-  text-decoration: none;
-  color: rgb(5, 5, 5)
-}
-a:hover {
-  color: #6633ff;
-}
+
 
 /* Section Styles */
 
@@ -43,13 +37,15 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: rgb(248, 248, 248);
+    color: #ccc;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
+  color: #ccc;
 }
 .nav a {
   transition: all .5s;
+  color: #ccc;
 }
 .nav a:hover {
   color: rgb(245, 244, 244);
