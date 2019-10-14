@@ -170,7 +170,7 @@ a.social:hover {
   }
 
   main p {
-    line-height: 1.6em;
+    line-height: 1.6em; 
   }
 
   footer {
@@ -183,10 +183,12 @@ a.social:hover {
   .head {
     text-align: center;
     background: url('images/saints logo.jpg') no-repeat center;
-    background-size: cover;
-    border: 100px solid rgb(5, 5, 5);
-    overflow: visible;
-    padding: 100px;
+    overflow: visible; 
+    border: 100px solid black;
+  }
+  
+  .profileimg{
+    border-radius: 50%;
   }
   
   .emails{
