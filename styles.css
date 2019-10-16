@@ -1,4 +1,5 @@
 /* Global Layout Set-up */
+:lang(en)
 * { 
   box-sizing: border-box;
 }
@@ -57,7 +58,7 @@ header {
   background-size: cover;
   border: 10px solid rgb(5, 5, 5);
   overflow: hidden;
-  padding: 100px;
+  padding: 10px;
 }
 header {
   line-height: 1.5;
@@ -70,6 +71,15 @@ header .profile-image {
   border: 3px solid rgb(247, 246, 246);
   transition: all .5s;
 }
+
+.contact_head {
+  margin-top: 200px;
+}
+
+.experience_head {
+  margin-top: 200px;
+}
+
 .tag {
   background-color: rgb(5, 5, 5);
   color: rgb(250, 249, 249);
@@ -180,14 +190,23 @@ a.social:hover {
     background: rgb(5, 5, 5);
   }
 
-  .head {
+  .head-one {
     text-align: center;
     background: url('images/saints logo.jpg') no-repeat center;
+    background-size: 100% 100%;
     overflow: visible; 
-    border: 100px solid black;
+    border: 10px solid black;
+  }
+
+  .head-two {
+    text-align: center;
+    background: url('images/grey.jpeg') no-repeat center;
+    background-size: 100% 100%;
+    overflow: visible; 
+    border: 10px solid black;  
   }
   
-  .profileimg{
+  .profile-image {
     border-radius: 50%;
   }
   
